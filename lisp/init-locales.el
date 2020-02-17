@@ -29,5 +29,12 @@
 (global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-h" 'delete-backward-char)
 
+(setq tab-width 4)
+(setq c-basic-offset 4)
+(global-set-key "\C-x\C-m" 'execute-extended-command)
+(global-set-key "\C-w" 'backward-kill-word)
+(global-set-key "\C-x\C-k" 'kill-region)
+(global-set-key "\C-h" 'delete-backward-char)
+
 (provide 'init-locales)
 ;;; init-locales.el ends here
